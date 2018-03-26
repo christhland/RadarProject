@@ -1516,7 +1516,13 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
 
     attachToFilter = if (filterAttach != 1)
     {
-      arrayListOf("")
+      arrayListOf(            
+            "Item_Attach_Weapon_Muzzle_Suppressor_Medium_C",
+            "Item_Attach_Weapon_Muzzle_FlashHider_Medium_C",
+            "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Medium_C",
+            "Item_Attach_Weapon_Magazine_Extended_Medium_C",
+            "Item_Attach_Weapon_Muzzle_Compensator_Medium_C"
+      )
     }
     else
     {
@@ -1543,7 +1549,24 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
 
     weaponsToFilter = if (filterWeapon != 1)
     {
-      arrayListOf("")
+      arrayListOf( 
+            "Item_Weapon_DP28_C",
+            "Item_Weapon_Saiga12_C",
+            "Item_Weapon_UMP_C",
+            "Item_Weapon_Vector_C",
+            "Item_Weapon_UZI_C",
+            "Item_Weapon_VSS_C",
+            "Item_Weapon_Thompson_C",
+            "Item_Weapon_Berreta686_C",
+            "Item_Weapon_Winchester_C",
+            "Item_Weapon_Win94_C",
+            "Item_Weapon_G18_C",
+            "Item_Weapon_SawenOff_C",
+            "Item_Weapon_Rhino_C",
+            "Item_Weapon_FlareGun_C",
+            "Item_Weapon_M1911_C",
+            "Item_Weapon_NagantM1895_C",
+            "Item_Weapon_M9_C")
     }
     else
     {
@@ -1583,7 +1606,7 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
 
     healsToFilter = if (filterHeals != 1)
     {
-      arrayListOf("")
+      arrayListOf( "Item_Heal_Bandage_C")
     }
     else
     {
@@ -1599,7 +1622,11 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
 
     ammoToFilter = if (filterAmmo != 1)
     {
-      arrayListOf("")
+      arrayListOf(            
+            "Item_Ammo_9mm_C",
+            "Item_Ammo_45ACP_C",
+            "Item_Ammo_Flare_C",
+            "Item_Ammo_12Guage_C")
     }
     else
     {
@@ -1617,7 +1644,10 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
 
     throwToFilter = if (filterThrow != 1)
     {
-      arrayListOf("")
+      arrayListOf(            
+            "Item_Weapon_FlashBang_C",
+            "Item_Weapon_SmokeBomb_C",
+            "Item_Weapon_Molotov_C")
     }
     else
     {
