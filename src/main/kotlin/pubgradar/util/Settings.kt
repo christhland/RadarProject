@@ -78,25 +78,25 @@ class Settings
         val Mini14 : Boolean = false,
         var SKS : Boolean = false,
         val AK47 : Boolean = false,
-        val DP28 : Boolean = false,
-        val Saiga12 : Boolean = false,
-        val UMP : Boolean = false,
-        val Vector : Boolean = false,
-        val UZI : Boolean = false,
+        val DP28 : Boolean = true,
+        val Saiga12 : Boolean = true,
+        val UMP : Boolean = true,
+        val Vector : Boolean = true,
+        val UZI : Boolean = true,
 
         //
         // Pistols
         //
-        val G18 : Boolean = false,
-        val Rhino45 : Boolean = false,
-        val M1911 : Boolean = false,
-        val R1895 : Boolean = false,
-        val M9 : Boolean = false,
+        val G18 : Boolean = true,
+        val Rhino45 : Boolean = true,
+        val M1911 : Boolean = true,
+        val R1895 : Boolean = true,
+        val M9 : Boolean = true,
 
         //
         // Meds
         //
-        val Bandage : Boolean = false,
+        val Bandage : Boolean = true,
         val MedKit : Boolean = false,
         val FirstAid : Boolean = false,
         val PainKiller : Boolean = false,
@@ -108,17 +108,17 @@ class Settings
         //
         var QDSnipe : Boolean = false,
         var ExSR : Boolean = false,
-        var ExSMG : Boolean = false,
+        var ExSMG : Boolean = true,
         var ExQuickAR : Boolean = false,
-        var ExtQuickSMG : Boolean = false,
+        var ExtQuickSMG : Boolean = true,
         var ExAR : Boolean = false,
         var CheekSR : Boolean = false,
         var LoopsSR : Boolean = false,
         var StockAR : Boolean = false,
         var SuppressorSR : Boolean = false,
         var SuppressorAR : Boolean = false,
-        var SuppressorSMG : Boolean = false,
-        var FlashHiderSMG : Boolean = false,
+        var SuppressorSMG : Boolean = true,
+        var FlashHiderSMG : Boolean = true,
         var FlashHiderAR : Boolean = false,
         var CompensatorAR : Boolean = false,
         var Foregrip : Boolean = false,
