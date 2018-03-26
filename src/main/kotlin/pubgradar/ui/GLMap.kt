@@ -1936,7 +1936,11 @@ class GLMap(private val jsettings : Settings.jsonsettings) : InputAdapter(), App
         3 ->
         {
 
-          nameFont.draw(spriteBatch, "|N: $name\n|D: ${distance}m", sx + 20, windowHeight - sy + 20)
+          nameFont.draw(
+                spriteBatch, "|A: $angle°\n" +
+                             "|D: ${distance}m\n",
+                        
+            sx + 20, windowHeight - sy + 20)
           // rectLine(x - width / 2, hpY, x - width / 2 + healthWidth, hpY, height)
         }
         4 ->
